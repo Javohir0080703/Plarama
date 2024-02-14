@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body>
+
+    <!-- Top -->
+    <div class="py-2 bg-grey-bg">
+        <!-- container -->
+        <div class="containerb flex justify-between items-center">
+            <!-- 1 -->
+            <div class="text-sm leading-[14px] text-black-222">
+                <label class="mr-1.5" for="city">Ваш город:</label>
+                <select class="bg-transparent" id="city">
+                    <option value="moskva">Москва</option>
+                </select>
+            </div>
+
+            <!-- 2 -->
+            <div class="text-center">
+                <address class="text-sm leading-[14px] text-black-222 not-italic mb-1.5">Москва, г. Химки, ул. Рабочая,
+                    дом 2</address>
+                <p class="text-xs leading-3 text-black-777">с 09:00 до 20:00 без выходных</p>
+            </div>
+
+            <!-- 3 -->
+            <div class="text-center">
+                <p class="text-sm leading-[14px] text-black-222 font-medium mb-1">+7 (495) 970-45-62 / +7 (915)
+                    202-72-57</p>
+                <a class="text-xs leading-3 text-black-222 font-medium underline underline-offset-4"
+                    href="tel:+7915202-72-57">Перезвонить?</a>
+            </div>
+
+            <!-- 4 -->
+            <div class="flex items-center">
+                <span class="text-sm leading-[14px] text-black-222 mr-2.5">Связаться:</span>
+                <ul class="flex space-x-2.5">
+                    <!-- telegram -->
+                    <li>
+                        <a class="w-9 h-9 border flex justify-center items-center border-black rounded-full" href="#">
+                            <img src="./img/telegram.svg" alt="telegram icon">
+                        </a>
+                    </li>
+                    <!-- whatsapp -->
+                    <li>
+                        <a class="w-9 h-9 border flex justify-center items-center border-black rounded-full" href="#">
+                            <img src="./img/whatsapp.svg" alt="whatsapp icon">
+                        </a>
+                    </li>
+                    <!-- viber -->
+                    <li>
+                        <a class="w-9 h-9 border flex justify-center items-center border-black rounded-full" href="#">
+                            <img src="./img/viber.svg" alt="viber icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="py-3 shadow-header-sh">
+        <div class="containerb flex justify-between items-center">
+            <!-- email -->
+            <p class="text-sm leading-[14px] font-medium text-black-222">grandlesmarket@mail.ru</p>
+
+            <!-- nav -->
+            <nav>
+                <ul class="flex items-center space-x-16">
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="каталог.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/logo.svg" alt="logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="#">Каталог</a>
+                    </li>
+
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="#">Каталог</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- List -->
+            <ul class="flex items-end space-x-8">
+                <li>
+                    <a href="#">
+                        <img src="./img/calculator.svg" alt="calculator icon">
+                    </a>
+                </li>
+                <li class="flex">
+                    <button>
+                        <img src="./img/icon_search.svg" alt="icon search">
+                    </button>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/cart.svg" alt="calculator icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- Оплата -->
+    <section class="pt-[50px]">
+        <div class="containerb">
+            <p class="text-base leading-[110%]">
+                <a class="text-gold" href="index.html">Главная</a>
+                <a class="text-black-222" href="#">/ Доставка</a>
+            </p>
+             <img class="w-[1440px] h-[500px] border rounded-[10px] mt-[50px]" src="./img/image31.png" alt="image">
+             <p class="mt-[50px] text-base text-black-222 leading-6 ">
+                Компания «ГрандЛесМаркет» реализует пиломатериалы всем категориям потребителей. Нашими клиентами могут стать как физические лица, так и юридические. Для удобства клиентов, мы сделали возможным оплату товара наличным и по безналичному расчету.
+             </p>
+             <!-- 1 -->
+             <h2 class="mt-[70px] text-[34px] font-bold leading-[44.2px]">
+                Для физических лиц
+             </h2>
+
+             <ul class="mt-[40px] space-y-11">
+                <!-- 1 -->
+                <li class="flex items-center">
+                    <div class="py-5 pl-5 w-[100px] border rounded-lg shadow-[0_0px_15px_0px_rgba(0,0,0,0.08)] mr-[30px]">
+                        <img class="w-[60px] h-[60px]" src="./img/image18.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-black-222 text-lg font-semibold">Наличный расчет</p>
+                        <p class="w-[1310px] text-base leading-6  mt-[10px">Производится непосредственно в офисе компании «ГрандЛесМаркет» по адресу: г. Химки, ул. Рабочая, дом 2. Стоимость приобретенного товара оплачивается сразу же после оформления заказа. Тут же можно оформить и оплатить услуги доставки автотранспортом компании и его разгрузки в указанном заказчиком месте. Сообщите об этом менеджеру, и он включит стоимость услуг в счет на оплату.</p>
+                    </div>
+                </li>
+                <!-- 2 -->
+                <li class="flex items-center">
+                    <div class="py-5 pl-5 w-[100px] border rounded-lg shadow-[0_0px_15px_0px_rgba(0,0,0,0.08)] mr-[30px]">
+                        <img class="w-[60px] h-[60px]" src="./img/image30.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-black-222 text-lg font-semibold">Наличный расчет при получении товара</p>
+                        <p class="w-[1310px] text-base leading-6 mt-[10px]">
+                            Если клиент не готов сразу оплатить стоимость дополнительных услуг, это можно будет сделать на объекте. Приняв заказ на объекте по количеству и качеству, клиент подписывает накладную у водителя-экспедитора и производит наличный расчет. После этого клиенту передают документы, подтверждающие оплату товара.
+                        </p>
+                    </div>
+                </li>
+                <!-- 3 -->
+                <li class="flex items-center">
+                    <div class="py-5 pl-5 w-[100px] border rounded-lg shadow-[0_0px_15px_0px_rgba(0,0,0,0.08)] mr-[30px]">
+                        <img class="w-[60px] h-[60px]" src="./img/image19.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-black-222 text-lg font-semibold">Денежный перевод на карту Сбербанка</p>
+                        <p class="w-[1310px] text-base leading-6  mt-[10px">
+                            Осуществляется клиентом, не выходя из дома через интернет и систему интернет-банкинга. Зачисления средств осуществляется моментально. Это максимально удобный и быстрый вариант оплаты товаров в нашем интернет-магазине.
+                        </p>
+                    </div>
+                </li>
+             </ul>
+              <!-- 2 -->
+             <h2 class="mt-[70px] text-[34px] font-bold leading-[44.2px]">
+                Для юридических лиц
+             </h2>
+
+             <ul class="mt-[40px] space-y-11">
+                <!-- 1 -->
+                <li class="flex items-center">
+                    <div class="py-5 pl-5 w-[100px] border rounded-lg shadow-[0_0px_15px_0px_rgba(0,0,0,0.08)] mr-[30px]">
+                        <img class="w-[60px] h-[60px]" src="./img/image18.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-black-222 text-lg font-semibold">Наличный расчет</p>
+                        <p class="w-[1310px] text-base leading-6  mt-[10px">
+                            При необходимости срочной поставки партии товара в минимальные сроки, советуем выбрать наличный способ оплаты. Только в этом случае компания может гарантировать доставку товара в сжатые сроки и в точно указанное время.
+                        </p>
+                    </div>
+                </li>
+                <!-- 2 -->
+                <li class="flex items-center">
+                    <div class="py-5 pl-5 w-[100px] border rounded-lg shadow-[0_0px_15px_0px_rgba(0,0,0,0.08)] mr-[30px]">
+                        <img class="w-[60px] h-[60px]" src="./img/image20.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-black-222 text-lg font-semibold">Безналичный расчет</p>
+                        <p class="w-[1310px] text-base leading-6 mt-[10px]">
+                            В последнем случае клиенту необходимо оформить заказ и получить от менеджера нашей компании счет-фактуру. Произвести оплату по счету в отделении любого удобного банка. Следует учесть, что задержка платежа при таком способе оплаты может составлять до 3-х банковских дней, а отгрузка товара произойдет только после зачисления средств в полном объеме на счет компании «ГрандЛесМаркет».
+                        </p>
+                    </div>
+                </li>
+                <!-- 3 -->
+                <li class="flex items-center">
+                    <div class="py-5 pl-5 w-[100px] border rounded-lg shadow-[0_0px_15px_0px_rgba(0,0,0,0.08)] mr-[30px]">
+                        <img class="w-[60px] h-[60px]" src="./img/box_icon.svg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-black-222 text-lg font-semibold">Оплата картой</p>
+                        <p class="w-[1310px] text-base leading-6  mt-[10px">
+                            Один из наиболее удобных способов оплаты. Вы можете осуществить платеж прямо из дома, с помощью мобильного приложения Вашего банка. Или оплатить товар через платежный терминал в нашем офисе.
+                        </p>
+                    </div>
+                </li>
+             </ul>
+
+
+             <p class="mt-[90px] text-base leading-6 text-black-222">Мы работаем без выходных и всегда готовы помочь нашим клиентам с оформлением заказа. Закажите обратный звонок в удобное время или задавайте вопросы в режиме онлайн через специальную форму на сайте компании. Связаться с менеджерами самостоятельно можно по телефонам: <span class="text-black-222 text-base font-semibold leading-[150%]"> +7 (915) 202-72-57 / +7 (495) 970-45-62</span></p>
+        </div>
+    </section>
+
+    <!-- Форма оплаты -->
+    <section class="pt-[70px]">
+        <div class="containerb">
+            <div class="py-14 px-[50px] w-[1440px] bg-grey-bg border rounded-[10px]">
+                <h2 class="text-#2A1A01 text-[34px] font-bold leading-[130%] text-center ">Форма оплаты</h2>
+                <!-- grid -->
+                <div class="mt-[30px] grid grid-cols-2 gap-[30px]">
+                  <input class="pt-[23px] pb-5 pl-5 w-[655px] border rounded-[10px] bg-white text-black-777 text-base" type="text" placeholder="Ваше имя">
+                  <input class="pt-[23px] pb-5 pl-5 w-[655px] border rounded-[10px] bg-white text-black-777 text-base" type="text" placeholder="Ваше имя">
+                  <input class="pt-[23px] pb-5 pl-5 w-[655px] border rounded-[10px] bg-white text-black-777 text-base" type="text" placeholder="Ваше имя">
+                  <input class="pt-[23px] pb-5 pl-5 w-[655px] border rounded-[10px] bg-white text-black-777 text-base" type="text" placeholder="Ваше имя">
+                </div>
+
+                <input class=" mt-[30px] pt-[23px] pl-5 pb-[111px] w-[1340px] border rounded-[10px] bg-white text-black-777 text-base " type="text" placeholder="Комментарий к платежу">
+
+                <p class="text-[13px] text-black-777 text-center mt-[30px]">
+                    Нажимая кнопку “Отправить заявку”, Вы соглашаетесь с правилами обработки персональных данных
+                </p>
+
+               <div class="text-center mt-[30px]">
+                <button class="text-white text-center text-[13px] font-semibold uppercase pt-[25px] pb-[21px] px-[84px] bg-gold border rounded-lg  ">Отправить</button>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="py-14">
+        <div class="containerb">
+            <div class="bg-grey-bg pt-14 px-12 pb-10 rounded-xl">
+                <h2 class="font-semibold text-[34px] leading-[44px] mb-8">Оставьте заявку прямо сейчас и <span
+                        class="text-gold font-bold">получите скидку 20%</span> на доставку!</h2>
+                <div class="flex items-center mb-8">
+                    <input class="grow p-5  rounded-xl mr-8" type="text" name="raqami"
+                        placeholder="Как к Вам обращаться?">
+
+                    <input class="grow p-5 rounded-xl mr-8" type="tel" name="raqami"
+                        placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _">
+
+                    <button class="font-semibold text-12 leading-12 text-white rounded-lg bg-gold py-5 px-8">Отправить
+                        заявку</button>
+
+                </div>
+                <p class="font-normal text-[13px] leading-[13px]">Нажимая кнопку “Отправить заявку”, Вы соглашаетесь с
+                    правилами обработки персональных данных</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="containerb pt-4">
+        <!-- footer all links -->
+        <div class="flex justify-between pb-12">
+
+            <!-- First & second -->
+            <div class="flex flex-col ">
+                <div>
+                    <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Каталог</h2>
+                </div>
+                <div class="flex ">
+                    <ul class="space-y-6">
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Доска</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Брус</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Брусок</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Блокхаус</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Вагонка</a>
+                        </li>
+                        <li class="mr-24">
+                            <a class="font-normal text-base text-br-qora" href="#">Имтиация бруса</a>
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col space-y-6">
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Половая доска</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Клееный пиломатериал</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Фанера</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Погонаж</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Лиственница</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Стройматериалы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- pokupatelyam -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Покапателям</h2>
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Доставка</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Оплата</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Гарантии качества</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Калькулятор</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- o kompanii -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">О компании</h2>
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Производство</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Статьи</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Kontakti -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Контакты</h2>
+                <ul class="space-y-5">
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Главный офис</span>
+                        <address class="font-normal text-base leading-4 not-italic text-black-222">Москва, Будайский
+                            проезд, дом 3, этаж 1</address>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Отдел продаж и склад</span>
+                        <address class="font-normal text-base leading-4 not-italic text-black-222">Химки, ул. Рабочая,
+                            дом 2</address>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Телефоны</span>
+                        <p class="font-normal text-base leading-4 text-black-222 ">8 (495) 970-45-62 / +7 (915)
+                            202-72-57</p>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Электронная почта</span>
+                        <p class="font-normal text-base leading-4 text-black-222 ">grandlesmarket@mail.ru</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="text-gray-200">
+
+        <!-- Footer bottom -->
+        <div class="flex items-center justify-between py-6">
+            <!-- prava -->
+            <div>
+                <p class=" font-normal text-sm leading-[14px] text-black-777">© 2005-2023 ГрандЛесМаркет. Все права
+                    защищены.</p>
+            </div>
+
+            <!-- politika -->
+            <div>
+                <a class="underline font-normal text-sm leading-[14px] text-black-777" href="#">Политика обработки
+                    персональных данных</a>
+            </div>
+
+            <!-- soials -->
+            <div class="flex items-center">
+                <p class="mr-2.5 font-normal text-sm leading-[14px]">Связаться в мессенджерах:</p>
+                <div>
+                    <ul class="space-x-2.5 flex">
+                        <!-- telegram -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/telegram.svg" alt="telegram icon">
+                            </a>
+                        </li>
+                        <!-- whatsapp -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/whatsapp.svg" alt="whatsapp icon">
+                            </a>
+                        </li>
+                        <!-- viber -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/viber.svg" alt="viber icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .containerb {
+        @apply w-full max-w-[1480px] mx-auto px-5
+    }
+    .chekboxstyle{
+        @apply w-[18px] h-[18px]
+    }
+    .h3stil{
+        @apply decoration-black-222 text-base ml-3
+    }
+    .summarysstil{
+        @apply flex items-center py-6 pl-5  border 
+    }
+}

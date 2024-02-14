@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chekout</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body>
+
+    <!-- Top -->
+    <div class="py-2 bg-grey-bg">
+        <!-- container -->
+        <div class="containerb flex justify-between items-center">
+            <!-- 1 -->
+            <div class="text-sm leading-[14px] text-black-222">
+                <label class="mr-1.5" for="city">Ваш город:</label>
+                <select class="bg-transparent" id="city">
+                    <option value="moskva">Москва</option>
+                </select>
+            </div>
+
+            <!-- 2 -->
+            <div class="text-center">
+                <address class="text-sm leading-[14px] text-black-222 not-italic mb-1.5">Москва, г. Химки, ул. Рабочая,
+                    дом 2</address>
+                <p class="text-xs leading-3 text-black-777">с 09:00 до 20:00 без выходных</p>
+            </div>
+
+            <!-- 3 -->
+            <div class="text-center">
+                <p class="text-sm leading-[14px] text-black-222 font-medium mb-1">+7 (495) 970-45-62 / +7 (915)
+                    202-72-57</p>
+                <a class="text-xs leading-3 text-black-222 font-medium underline underline-offset-4"
+                    href="tel:+7915202-72-57">Перезвонить?</a>
+            </div>
+
+            <!-- 4 -->
+            <div class="flex items-center">
+                <span class="text-sm leading-[14px] text-black-222 mr-2.5">Связаться:</span>
+                <ul class="flex space-x-2.5">
+                    <!-- telegram -->
+                    <li>
+                        <a class="w-9 h-9 border flex justify-center items-center border-black rounded-full" href="#">
+                            <img src="./img/telegram.svg" alt="telegram icon">
+                        </a>
+                    </li>
+                    <!-- whatsapp -->
+                    <li>
+                        <a class="w-9 h-9 border flex justify-center items-center border-black rounded-full" href="#">
+                            <img src="./img/whatsapp.svg" alt="whatsapp icon">
+                        </a>
+                    </li>
+                    <!-- viber -->
+                    <li>
+                        <a class="w-9 h-9 border flex justify-center items-center border-black rounded-full" href="#">
+                            <img src="./img/viber.svg" alt="viber icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="py-3 shadow-header-sh">
+        <div class="containerb flex justify-between items-center">
+            <!-- email -->
+            <p class="text-sm leading-[14px] font-medium text-black-222">grandlesmarket@mail.ru</p>
+
+            <!-- nav -->
+            <nav>
+                <ul class="flex items-center space-x-16">
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="каталог.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="#">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/logo.svg" alt="logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="#">Каталог</a>
+                    </li>
+
+                    <li>
+                        <a class="font-semibold text-[13px] leading-[13px] text-black-222 uppercase"
+                            href="#">Каталог</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- List -->
+            <ul class="flex items-end space-x-8">
+                <li>
+                    <a href="#">
+                        <img src="./img/calculator.svg" alt="calculator icon">
+                    </a>
+                </li>
+                <li class="flex">
+                    <button>
+                        <img src="./img/icon_search.svg" alt="icon search">
+                    </button>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/cart.svg" alt="calculator icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Оформление заказа -->
+    <section class="pt-[57px]">
+        <div class="containerb relative">
+            <!-- pocition -->
+            <div
+                class="pt-[30px] pb-9 px-[30px] w-[315px] border rounded-lg bg-grey-bg absolute left-[1130px] top-[175px] ">
+                <h3 class="text-2xl font-medium text-black-222">В корзине</h3>
+                <ul class="mt-5 space-y-4">
+                    <!-- 1 -->
+                    <li class="flex items-center justify-between ">
+                        <p class="text-base text-black-222 leading-[20.8px]">2 товара</p>
+                        <p class="text-right text-base font-semibold leading-[20.8px]">39 000 ₽</p>
+                    </li>
+                    <!-- 2 -->
+                    <li class="flex items-center justify-between ">
+                        <p class="text-base text-black-222 leading-[20.8px]">Сумма НДС</p>
+                        <p class="text-right text-base font-semibold leading-[20.8px]">0 ₽</p>
+                    </li>
+                    <!-- 3 -->
+                    <li class="flex items-center justify-between ">
+                        <p class="text-base text-black-222 leading-[20.8px]">Доставка</p>
+                        <p class="text-right text-base font-semibold leading-[20.8px]">0 ₽</p>
+                    </li>
+                    <!-- 4 -->
+                    <li class="flex items-center justify-between ">
+                        <p class="text-base font-semibold text-black-222 leading-[20.8px]">Итого:</p>
+                        <p class="text-right text-[20.8px] font-semibold leading-[26px]">39 000 ₽</p>
+                    </li>
+                </ul>
+
+            </div>
+
+            <p class="text-base leading-[110%]">
+                <a class="text-gold " href="#">Главная</a>
+                <a class="text-black-777" href="#">/ Оформление заказа</a>
+            </p>
+            <h1 class="text-[44px] text-#2A1A01 font-bold leading-[130%] mt-[30px]">Оформление заказа</h1>
+            <!-- radio -->
+            <div class="flex mt-10 ">
+                <div class="flex items-center mr-[50px]">
+                    <input class="mr-[10px]" type="radio">
+                    <p class="font-medium text-lg leading-6">Физическое лицо</p>
+                </div>
+                <div class="flex items-center">
+                    <input class="mr-[10px]" type="radio">
+                    <p class="font-medium text-lg leading-6">Юридическое лицо</p>
+                </div>
+
+            </div>
+            <p class="text-2xl font-medium leading-[31.2px] text-black-222 inline-block mt-[50px]">Покупатель</p>
+            <!-- grid -->
+            <div class=" w-[1075px] mt-[30px] grid grid-cols-2 gap-x-5 gap-y-[30px]">
+                <!-- grid -->
+                <!-- 1 -->
+                <div class="w-[520px]">
+                    <h4 class="text-black-222 font-semibold text-sm mb-2   ">ФИО</h4>
+                    <input class="py-[22px] pl-5 w-[520px] bg-grey-bg border rounded-[5px]" type="text"
+                        placeholder="Иванов Иван Иванович">
+                </div>
+                <!-- 2 -->
+                <div class="w-[520px]">
+                    <p class="text-black-222 font-semibold text-sm mb-2 ">E-mail</p>
+                    <input class="py-[22px] pl-5 w-[520px] bg-grey-bg border rounded-[5px]" type="email"
+                        placeholder="example@mail.ru">
+                </div>
+                <!-- 3 -->
+                <div class="w-[520px]">
+                    <p class="text-black-222 font-semibold text-sm mb-2 ">Телефон</p>
+                    <input class="py-[22px] pl-5 w-[520px] bg-grey-bg border rounded-[5px]" type="tel"
+                        placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _">
+                </div>
+                <!-- 4 -->
+                <div class="w-[520px]">
+                    <p class="text-black-222 font-semibold text-sm mb-2 ">Местоположение</p>
+                    <input class="py-[22px] pl-5 w-[520px] bg-grey-bg border rounded-[5px]" type="text"
+                        placeholder="Москва, Россия">
+                </div>
+            </div>
+
+            <!-- Информация о доставке -->
+            <div class="mt-[50px] text-black-222">
+                <p class="text-2xl  font-medium leading-8">Информация о доставке</p>
+                <!-- МАШИНЫ -->
+                <div class="mt-8 flex items-start justify-between w-[1075px] ">
+                    <!-- 1 -->
+                    <div class="flex  ">
+                        <input class="w-[18px] h-[18px] mr-[10px]" type="checkbox">
+                        <p class="text-sm font-semibold ">Самовывоз</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="flex ">
+                        <input class="w-[18px] h-[18px] mr-[10px]" type="checkbox">
+                        <div>
+                            <p class="text-sm font-semibold "> Газель<span class="text-sm">(до 1,5 т, до 3 м3)</span>
+                            </p>
+                            <p class="">от 2 500 ₽</p>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="flex ">
+                        <input class="w-[18px] h-[18px] mr-[10px]" type="checkbox">
+                        <div>
+                            <p class="text-sm font-semibold ">Hyndai 78<span class="text-sm"> (до 5 т, до 9 м3)</span>
+                            </p>
+                            <p class="">от 4 000 ₽</p>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="flex ">
+                        <input class="w-[18px] h-[18px] mr-[10px]" type="checkbox">
+                        <div>
+                            <p class="text-sm font-semibold ">MAZ<span class="text-sm"> (до 7 т, до 16 м3)</span></p>
+                            <p class="">от 6 000 ₽</p>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="flex ">
+                        <input class="w-[18px] h-[18px] mr-[10px]" type="checkbox">
+                        <div>
+                            <p class="text-sm font-semibold ">KAMAZ<span class="text-sm"> (до 15 т, до 23 м3)</span></p>
+                            <p class="">от 8 000 ₽</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Адрес доставки -->
+                <div class="w-[1075px] mt-8">
+                    <p class="text-sm font-semibold text-black-222">Адрес доставки</p>
+                    <input class="py-[22px] pl-5 w-[1075px] bg-[#F8F8F8] border rounded-[5px] text-sm text-[#999] mt-2 "
+                        type="text" placeholder="Город, улица, номер квартиры или номер склада">
+                </div>
+                <!-- Информация об оплате -->
+                <div class="mt-[50px] ">
+                    <h3 class="text-2xl text-black-222 leading-8 font-medium">Информация об оплате</h3>
+                    <div class="mt-[30px] flex space-x-[25px]">
+                        <!-- 1 -->
+                        <a class="py-[10px] pl-[15px] w-[250px] border border-gold rounded-[5px] flex items-center">
+                            <img class="w-10 h-10 mr-[15px]" src="./img/image18.svg" alt=".">
+                            <p class="text-sm text-black-222 font-semibold ">Наличные</p>
+                        </a>
+                        <!-- 2 -->
+                        <a class="py-[10px] pl-[15px] w-[250px] border  rounded-[5px] flex items-center">
+                            <img class="w-10 h-10 mr-[15px]" src="./img/image19.svg" alt=".">
+                            <p class="text-sm text-black-222 font-semibold ">Онлайн-оплата</p>
+                        </a>
+                        <!-- 3 -->
+                        <a class="py-[10px] pl-[15px] w-[250px] border  rounded-[5px] flex items-center">
+                            <img class="w-10 h-10 mr-[15px]" src="./img/image20.svg" alt=".">
+                            <p class="text-sm text-black-222 font-semibold ">Оплата по счёту</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Состав заказа -->
+                <div class="mt-[50px]">
+                   <h3 class="text-2xl text-black-222 font-medium leading-8">Состав заказа</h3>
+                   <div>
+                    <!-- 1 -->
+                    <div class=" w-[1075px] mt-[30px] flex items-center justify-between py-[20px]  border-y-[1px] ">
+                        <div class=" flex items-center" >
+                            <div class="py-4 pl-[9px] w-[100px] bg-grey-bg border rounded-[10px] mr-[30px]">
+                                <img class="w-[82px] h-[68px]" src="./img/cart-1.png" alt="">
+                            </div>
+                            <p class="w-[190px] text-base font-medium leading-6">Доска строганная сухая 50х150х6000</p>
+                        </div>
+                        <p class="text-base text-black-222 leading-[20.8px]">1 м<sup>3</sup></p>
+                        <p class="text-base font-semibold text-black-222 leading-[20.8px]">17 500 ₽</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class=" w-[1075px] mt-[20px] flex items-center justify-between pb-[20px] border-b-[1px]">
+                        <div class=" flex items-center" >
+                            <div class="py-4 pl-[9px] w-[100px] bg-grey-bg border rounded-[10px] mr-[30px]">
+                                <img class="w-[82px] h-[68px]" src="./img/cart-1.png" alt="">
+                            </div>
+                            <p class="w-[190px] text-base font-medium leading-6">Доска строганная сухая 50х150х6000</p>
+                        </div>
+                        <p class="text-base text-black-222 leading-[20.8px]">1 м<sup>3</sup></p>
+                        <p class="text-base font-semibold text-black-222 leading-[20.8px]">17 500 ₽</p>
+                    </div>
+                   </div>
+                </div>
+
+                <!-- Комментарий к заказу -->
+                <div class="mt-[50px]">
+                    <h3 class="text-2xl text-black-222 font-medium leading-8">Комментарий к заказу</h3>
+                    <input class="w-[1075px] h-[150px] bg-grey-bg border rounded-[5px] mt-[30px]" type="text">
+                    <div class="mt-8 flex items-center">
+                        <input class="w-[18px] h-[18px] mr-[10px]" type="checkbox">
+                        <p class="text-sm text-black-222">Нажимая на кнопку, я соглашаюсь с <span class="underline underline-offset-4"> Политикой обработки персональных данных</span></p>
+                    </div>
+                    <button class="py-[23px] pl-[61px] pr-[69px] bg-gold border rounded-lg mt-[30px] ">
+                        <p class="text-sm font-semibold uppercase text-center text-white ">Оформить заказ</p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-14">
+        <div class="containerb">
+            <div class="bg-grey-bg pt-14 px-12 pb-10 rounded-xl">
+                <h2 class="font-semibold text-[34px] leading-[44px] mb-8">Оставьте заявку прямо сейчас и <span
+                        class="text-gold font-bold">получите скидку 20%</span> на доставку!</h2>
+                <div class="flex items-center mb-8">
+                    <input class="grow p-5  rounded-xl mr-8" type="text" name="raqami"
+                        placeholder="Как к Вам обращаться?">
+
+                    <input class="grow p-5 rounded-xl mr-8" type="tel" name="raqami"
+                        placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _">
+
+                    <button class="font-semibold text-12 leading-12 text-white rounded-lg bg-gold py-5 px-8">Отправить
+                        заявку</button>
+
+                </div>
+                <p class="font-normal text-[13px] leading-[13px]">Нажимая кнопку “Отправить заявку”, Вы соглашаетесь с
+                    правилами обработки персональных данных</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="containerb pt-4">
+        <!-- footer all links -->
+        <div class="flex justify-between pb-12">
+
+            <!-- First & second -->
+            <div class="flex flex-col ">
+                <div>
+                    <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Каталог</h2>
+                </div>
+                <div class="flex ">
+                    <ul class="space-y-6">
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Доска</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Брус</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Брусок</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Блокхаус</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Вагонка</a>
+                        </li>
+                        <li class="mr-24">
+                            <a class="font-normal text-base text-br-qora" href="#">Имтиация бруса</a>
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col space-y-6">
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Половая доска</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Клееный пиломатериал</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Фанера</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Погонаж</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Лиственница</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Стройматериалы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- pokupatelyam -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Покапателям</h2>
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Доставка</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Оплата</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Гарантии качества</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Калькулятор</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- o kompanii -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">О компании</h2>
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Производство</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Статьи</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Kontakti -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Контакты</h2>
+                <ul class="space-y-5">
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Главный офис</span>
+                        <address class="font-normal text-base leading-4 not-italic text-black-222">Москва, Будайский
+                            проезд, дом 3, этаж 1</address>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Отдел продаж и склад</span>
+                        <address class="font-normal text-base leading-4 not-italic text-black-222">Химки, ул. Рабочая,
+                            дом 2</address>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Телефоны</span>
+                        <p class="font-normal text-base leading-4 text-black-222 ">8 (495) 970-45-62 / +7 (915)
+                            202-72-57</p>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Электронная почта</span>
+                        <p class="font-normal text-base leading-4 text-black-222 ">grandlesmarket@mail.ru</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="text-gray-200">
+
+        <!-- Footer bottom -->
+        <div class="flex items-center justify-between py-6">
+            <!-- prava -->
+            <div>
+                <p class=" font-normal text-sm leading-[14px] text-black-777">© 2005-2023 ГрандЛесМаркет. Все права
+                    защищены.</p>
+            </div>
+
+            <!-- politika -->
+            <div>
+                <a class="underline font-normal text-sm leading-[14px] text-black-777" href="#">Политика обработки
+                    персональных данных</a>
+            </div>
+
+            <!-- soials -->
+            <div class="flex items-center">
+                <p class="mr-2.5 font-normal text-sm leading-[14px]">Связаться в мессенджерах:</p>
+                <div>
+                    <ul class="space-x-2.5 flex">
+                        <!-- telegram -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/telegram.svg" alt="telegram icon">
+                            </a>
+                        </li>
+                        <!-- whatsapp -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/whatsapp.svg" alt="whatsapp icon">
+                            </a>
+                        </li>
+                        <!-- viber -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/viber.svg" alt="viber icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
